@@ -950,11 +950,11 @@ def render_edit_staff(state,idx=None):
 </div></div></body></html>"""
     return html
 
-if __name__=="__main__":
-    port=8080
-    server=HTTPServer(("0.0.0.0",port),Handler)
-    print(f"✅ 排班系統 v5 啟動！")
-    print(f"👉 瀏覽器開啟：http://localhost:{port}")
-    print(f"   Ctrl+C 結束")
-    try: server.serve_forever()
-    except KeyboardInterrupt: print("\n🛑 已關閉")
+#if __name__=="__main__":
+    #port=8080
+    #server=HTTPServer(("0.0.0.0",port),Handler)
+    #print(f"✅ 排班系統 v5 啟動！")
+    #print(f"👉 瀏覽器開啟：http://localhost:{port}")
+    #print(f"   Ctrl+C 結束")
+    #try: server.serve_forever()
+    #except KeyboardInterrupt: print("\n🛑 已關閉")
